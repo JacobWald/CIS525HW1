@@ -54,7 +54,7 @@ a.current {
     text-decoration: none;
 }
 
-.center-wrapper {
+main {
     text-align: center;
     margin-top: 2rem;
     margin-left: 1rem;
@@ -64,7 +64,7 @@ a.current {
     align-items: center;
 }
 
-.info {
+section {
     display: inline-block;
     padding: 1rem;
     margin: .5rem;
@@ -76,7 +76,7 @@ a.current {
     max-width: 1000px;
 }
 
-.info h1 {
+section h1 {
     border-bottom: 1px solid white;
     margin-top: 0;
     padding-bottom: 0.5rem;
