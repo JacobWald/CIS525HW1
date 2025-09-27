@@ -27,9 +27,10 @@ nav {
 
 .menu li:has(.submenu) {
     position: relative;
-    &:hover > .submenu {
-        display: block;
-    }
+}
+
+.menu li:has(.submenu):hover > .submenu {
+    display: block;
 }
 
 .submenu {
